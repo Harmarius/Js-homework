@@ -3,7 +3,7 @@ let RubleUser = prompt ("Число ваших рублей?");
 let BarterDollor = prompt ("Сколько долларов обменять на рубли?");
 let barter = (BarterDollor * 74 - RubleUser);
 let barterD = (BarterDollor * 34);
-let barterC = (barterD + RubleUser);
+let barterC = (barterD + barter);
 console.log(barter);
 console.log(barterD);
 console.log(barterC);
